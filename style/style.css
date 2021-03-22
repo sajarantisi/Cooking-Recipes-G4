@@ -8,197 +8,185 @@ body {
 }
 
 /* Start Intro Page */
-.header_introduction{
-    position: absolute;
-    left: 25px;
-    right: 25px;
-    top: 52px;
-    font-family: Work Sans;
-    font-size: 24px;
-    text-align: center;
-    color: #1C0F13;
+.header_introduction {
+  position: absolute;
+  left: 25px;
+  right: 25px;
+  top: 52px;
+  font-family: Work Sans;
+  font-size: 24px;
+  text-align: center;
+  color: #1c0f13;
 }
 
-.image_introduction{
-    position: absolute;
-    width: 207px;
-    height: 172.01px;
-    left: calc(50% - 207px/2 - 0.5px);
-    top: 223px;
+.image_introduction {
+  position: absolute;
+  width: 207px;
+  height: 172.01px;
+  left: calc(50% - 207px / 2 - 0.5px);
+  top: 223px;
 }
 
-.shadow_introduction{
-    position: absolute;
-    width: 99px;
-    height: 8.01px;
-    left: 163px;
-    top: 398.01px;
-    transform: rotate(-180deg);
+.shadow_introduction {
+  position: absolute;
+  width: 99px;
+  height: 8.01px;
+  left: 163px;
+  top: 398.01px;
+  transform: rotate(-180deg);
 }
 
-.paragraph_section_introduction{
-    position: absolute;
-    width: 315px;
-    left: calc(50% - 315px/2 - 0.5px);
-    top: 447px;
+.paragraph_section_introduction {
+  position: absolute;
+  width: 315px;
+  left: calc(50% - 315px / 2 - 0.5px);
+  top: 447px;
 }
 
-.paragraph1_section_introduction{
-    font-family: Work Sans;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 35px;
-    text-align: center;
-    color: #1C0F13;
-    margin: 10px 0px;
-
+.paragraph1_section_introduction {
+  font-family: Work Sans;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #1c0f13;
+  margin: 10px 0px;
 }
 
-.paragraph2_section_introduction{
-    position: absolute;
-    left: 35px;
-    top: 87px;
-    font-family: Nunito;
-    font-size: 17px;
-    line-height: 23px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: rgba(28, 15, 19, 0.9);
+.paragraph2_section_introduction {
+  position: absolute;
+  left: 35px;
+  top: 87px;
+  font-family: Nunito;
+  font-size: 17px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(28, 15, 19, 0.9);
 }
- .symbol_introduction{
-    font-weight: 600;
-    font-size: 8px;
-    line-height: 9px;
-    text-align: center;
-    height: 19px;
- }
-
-.button_introduction{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    height: 80px;
-    left: 30px;
-    right: 30px;
-    bottom: 87px;
+.symbol_introduction {
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 9px;
+  text-align: center;
+  height: 19px;
 }
 
-#button_introduction{
-    background: #1C0F13;
-    border-radius: 8px;
-    width: 95%;
-    height: 49px;
-    font-family: Work Sans;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
-    color: #FFFFFF;
-    text-decoration: none;
+.button_introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  height: 80px;
+  left: 30px;
+  right: 30px;
+  bottom: 87px;
+}
+
+#button_introduction {
+  background: #1c0f13;
+  border-radius: 8px;
+  width: 95%;
+  height: 49px;
+  font-family: Work Sans;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /* End Intro Page*/
-
-
-
-
-
-
-
 
 /* Start page cooking time */
 
 /* start section cook_time_title */
 .title {
-    background: linear-gradient(180.93deg, #F5F3F1 74.57%,
-     rgba(245, 243, 241, 0) 96.04%);
-     padding-top: 30px; ;
+  background: linear-gradient(
+    180.93deg,
+    #f5f3f1 74.57%,
+    rgba(245, 243, 241, 0) 96.04%
+  );
+  padding-top: 30px;
 }
 .title h1 {
-    font-style: normal;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
-    text-align: center;
-    color: #1C0F13;
+  font-style: normal;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #1c0f13;
 }
 /* End section cook_time_title */
 
 /* start section step */
-.step{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+.step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
-.div_step{
-    width:325px;
-    height:244px;
-    background: #FFFFFF;
-    border-radius: 8px;
-    padding: 40px 28px;
-
+.div_step {
+  width: 325px;
+  height: 244px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 40px 28px;
 }
 /* start div div_step */
 
-.side_span  {
-    font-style: normal;
-    font-weight: normal;
-    font-family: 'Nunito', sans-serif;
-    font-size: 12px;
-    line-height: 22px;
-    color: #1C0F13;
+.side_span {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  color: #1c0f13;
 }
 
 .right_side {
-    margin-left:90px;
-    
+  margin-left: 90px;
 }
-.right_side i{
-    font-size: 10px;
+.right_side i {
+  font-size: 10px;
 }
 
-        /* start div text_step */
+/* start div text_step */
 .text_step h2 {
-    font-style: normal;
-    font-family: Work Sans;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 22px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+  font-style: normal;
+  font-family: Work Sans;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .text_step p {
-    font-style: normal;
-    font-family: Roboto;
-    font-weight: 300;
-    font-size: 13px;
-    line-height: 22px;
-    color: #1C0F13;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 22px;
+  color: #1c0f13;
 }
-.bold_text{
-    font-weight: bold;
-    font-size: 13px;
+.bold_text {
+  font-weight: bold;
+  font-size: 13px;
 }
-.paragraph2{
-    margin-top: 15px;
+.paragraph2 {
+  margin-top: 15px;
 }
 
-        /* End div text_step */
-
-
-
-
+/* End div text_step */
 
 /* start div img_timer */
 .img_timer img {
-    width: 230px;
-    height: 230px;
-    margin-top: 50px;
+  width: 230px;
+  height: 230px;
+  margin-top: 50px;
 }
 
 /* End div img_timer */
@@ -206,8 +194,6 @@ body {
 /* End section step */
 
 /* End page cooking time */
-
-
 
 .header_introduction {
   position: absolute;
@@ -328,6 +314,89 @@ body {
 }
 
 /* End section header_home_page */
+
+/* Omar's section */
+#bottom_all {
+  width: 325px;
+  height: 589px;
+  margin: auto;
+  padding-left: 43px;
+}
+
+#bottom_all button {
+  width: 242px;
+  height: 40px;
+  margin: auto;
+  margin-top: 10px;
+  border: black 1px solid;
+  border-radius: 7px;
+  background-color: inherit;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+}
+
+#bottom_all button:hover {
+  color: white;
+  background-color: black;
+}
+
+#bottom_all img {
+  border-radius: 4px;
+  margin-left: -9px;
+}
+#bottom_all h3 {
+  font-size: medium;
+  margin-top: 10px;
+  background-color: white;
+}
+.icnon_recipe {
+  background-color: white;
+}
+.icnon_recipe_2 {
+  background-color: white;
+}
+.header {
+  height: 50px;
+  width: 325px;
+  border-radius: 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #1c0f13;
+}
+.header_2 {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 38px;
+  color: #1c0f13;
+}
+
+.bottom_section_2 {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 30px;
+  height: 433px;
+  width: 243px;
+  top: 91px;
+}
+.image {
+  height: 125px;
+  width: 200px;
+  border-radius: 5px;
+}
+.text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+}
 
 /* stert section cooking_recipe */
 /* stert div recipe */
@@ -509,25 +578,23 @@ body {
 
 /* End home Page section 1*/
 
-
 /* Recipes page style*/
 
-.top_bar{
+.top_bar {
   position: absolute;
   width: 375px;
   height: 109px;
   left: -7px;
   top: 0px;
 }
-.arrow{
+.arrow {
   position: absolute;
-width: 34px;
-height: 34px;
-left: 11px;
-top: 44px;
-
+  width: 34px;
+  height: 34px;
+  left: 11px;
+  top: 44px;
 }
-.my_recipes_top_bar{
+.my_recipes_top_bar {
   position: absolute;
   height: 26px;
   left: 38px;
@@ -540,8 +607,7 @@ top: 44px;
   font-size: 18px;
   line-height: 26px;
   text-align: center;
-  color: #1C0F13;
-
+  color: #1c0f13;
 }
 
 .types_container {
@@ -551,7 +617,6 @@ top: 44px;
   left: 23px;
   top: 119px;
   overflow-x: scroll;
-
 }
 
 .content {
@@ -576,24 +641,23 @@ top: 44px;
   border-radius: 10px;
 }
 
-.items1{
+.items1 {
   position: absolute;
   width: 160px;
   height: 235px;
   left: 0px;
   top: 5px;
 }
- 
-.items2{
+
+.items2 {
   position: absolute;
   width: 160px;
   height: 255px;
   left: 175px;
   top: 28px;
-
 }
 
-.items3{
+.items3 {
   position: absolute;
   width: 160px;
   height: 235px;
@@ -601,7 +665,7 @@ top: 44px;
   top: 236px;
 }
 
-.items4{
+.items4 {
   position: absolute;
   width: 160px;
   height: 235px;
@@ -609,7 +673,7 @@ top: 44px;
   top: 295px;
 }
 
-.items5{
+.items5 {
   position: absolute;
   width: 160px;
   height: 277px;
@@ -617,50 +681,44 @@ top: 44px;
   top: 478px;
 }
 
-.items6{
+.items6 {
   position: absolute;
   width: 160px;
   height: 215px;
   left: 175px;
   top: 543px;
-
 }
 
-.items7{
+.items7 {
   position: absolute;
   width: 160px;
   height: 255px;
   left: 0px;
   top: 720px;
-
 }
 
-.items8{
+.items8 {
   position: absolute;
   width: 160px;
   height: 235px;
   left: 175px;
   top: 756px;
-
 }
 
-.items9{
+.items9 {
   position: absolute;
   width: 160px;
   height: 235px;
   left: 0px;
   top: 971px;
-
 }
 
-.items10{
+.items10 {
   position: absolute;
   width: 160px;
   height: 215px;
   left: 175px;
   top: 984px;
-
 }
-
 
 /* End of recipes page*/
