@@ -478,6 +478,40 @@ body {
 }
 /* End div recipe */
 
+/* nav bar style */
+.bottom_bar {
+  height: 63px;
+  padding: 5px;
+  text-align: center;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bottom_bar li {
+  display: inline-block;
+  width: 60px;
+  height: 42px;
+  text-align: center;
+  border-radius: 7px;
+  padding-top: 8px;
+  font-size: 12px;
+  text-decoration: none;
+}
+.bottom_bar li a {
+  text-decoration: none;
+}
+
+.bottom_bar li:hover {
+  background-color: rgb(85, 82, 82);
+  color: white;
+  cursor: pointer;
+}
+
+/* end of nav bar style */
+
 /* stert div recipe */
 .cooking_div_1 {
   width: 243px;
