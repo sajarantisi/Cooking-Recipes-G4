@@ -19,3 +19,6 @@ Our website provides various kinds of delicious recipes for different countries.
    2. Define main points in our website.
    3. Divide the work between the team members.
    4. Creating repository and issues.
+   5. Work process
+   6. Upload the work.
+   7. Merge the work.
