@@ -315,6 +315,89 @@ body {
 
 /* End section header_home_page */
 
+/* Omar's section */
+#bottom_all {
+  width: 325px;
+  height: 589px;
+  margin: auto;
+  padding-left: 43px;
+}
+
+#bottom_all button {
+  width: 242px;
+  height: 40px;
+  margin: auto;
+  margin-top: 10px;
+  border: black 1px solid;
+  border-radius: 7px;
+  background-color: inherit;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+}
+
+#bottom_all button:hover {
+  color: white;
+  background-color: black;
+}
+
+#bottom_all img {
+  border-radius: 4px;
+  margin-left: -9px;
+}
+#bottom_all h3 {
+  font-size: medium;
+  margin-top: 10px;
+  background-color: white;
+}
+.icnon_recipe {
+  background-color: white;
+}
+.icnon_recipe_2 {
+  background-color: white;
+}
+.header {
+  height: 50px;
+  width: 325px;
+  border-radius: 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #1c0f13;
+}
+.header_2 {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 38px;
+  color: #1c0f13;
+}
+
+.bottom_section_2 {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 30px;
+  height: 433px;
+  width: 243px;
+  top: 91px;
+}
+.image {
+  height: 125px;
+  width: 200px;
+  border-radius: 5px;
+}
+.text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
 /* stert section cooking_recipe */
 /* stert div recipe */
 .cooking_recipe {
