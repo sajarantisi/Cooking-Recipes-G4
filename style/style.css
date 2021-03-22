@@ -8,6 +8,230 @@ body {
 }
 
 /* Start Intro Page */
+.header_introduction{
+    position: absolute;
+    left: 25px;
+    right: 25px;
+    top: 52px;
+    font-family: Work Sans;
+    font-size: 24px;
+    text-align: center;
+    color: #1C0F13;
+}
+
+.image_introduction{
+    position: absolute;
+    width: 207px;
+    height: 172.01px;
+    left: calc(50% - 207px/2 - 0.5px);
+    top: 223px;
+}
+
+.shadow_introduction{
+    position: absolute;
+    width: 99px;
+    height: 8.01px;
+    left: 163px;
+    top: 398.01px;
+    transform: rotate(-180deg);
+}
+
+.paragraph_section_introduction{
+    position: absolute;
+    width: 315px;
+    left: calc(50% - 315px/2 - 0.5px);
+    top: 447px;
+}
+
+.paragraph1_section_introduction{
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #1C0F13;
+    margin: 10px 0px;
+
+}
+
+.paragraph2_section_introduction{
+    position: absolute;
+    left: 35px;
+    top: 87px;
+    font-family: Nunito;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(28, 15, 19, 0.9);
+}
+ .symbol_introduction{
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 9px;
+    text-align: center;
+    height: 19px;
+ }
+
+.button_introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 80px;
+    left: 30px;
+    right: 30px;
+    bottom: 87px;
+}
+
+#button_introduction{
+    background: #1C0F13;
+    border-radius: 8px;
+    width: 95%;
+    height: 49px;
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* End Intro Page*/
+
+
+
+
+
+
+
+
+/* Start page cooking time */
+
+/* start section cook_time_title */
+.title {
+    background: linear-gradient(180.93deg, #F5F3F1 74.57%,
+     rgba(245, 243, 241, 0) 96.04%);
+     padding-top: 30px; ;
+}
+.title h1 {
+    font-style: normal;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #1C0F13;
+}
+/* End section cook_time_title */
+
+/* start section step */
+.step{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.div_step{
+    width:325px;
+    height:244px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 40px 28px;
+
+}
+/* start div div_step */
+
+.side_span  {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    color: #1C0F13;
+}
+
+.right_side {
+    margin-left:90px;
+    
+}
+.right_side i{
+    font-size: 10px;
+}
+
+        /* start div text_step */
+.text_step h2 {
+    font-style: normal;
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.text_step p {
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 22px;
+    color: #1C0F13;
+}
+.bold_text{
+    font-weight: bold;
+    font-size: 13px;
+}
+.paragraph2{
+    margin-top: 15px;
+}
+
+        /* End div text_step */
+
+
+
+
+
+/* start div img_timer */
+.img_timer img {
+    width: 230px;
+    height: 230px;
+    margin-top: 50px;
+}
+
+/* End div img_timer */
+/* End div div_step */
+/* End section step */
+
+/* End page cooking time */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header_introduction {
   position: absolute;
   left: 25px;
