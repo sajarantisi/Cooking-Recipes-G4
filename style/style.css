@@ -209,29 +209,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .header_introduction {
   position: absolute;
   left: 25px;
@@ -531,3 +508,159 @@ body {
 /* End of Settings section style */
 
 /* End home Page section 1*/
+
+
+/* Recipes page style*/
+
+.top_bar{
+  position: absolute;
+  width: 375px;
+  height: 109px;
+  left: -7px;
+  top: 0px;
+}
+.arrow{
+  position: absolute;
+width: 34px;
+height: 34px;
+left: 11px;
+top: 44px;
+
+}
+.my_recipes_top_bar{
+  position: absolute;
+  height: 26px;
+  left: 38px;
+  right: 38px;
+  top: 48px;
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #1C0F13;
+
+}
+
+.types_container {
+  position: absolute;
+  width: 335px;
+  height: 1297px;
+  left: 23px;
+  top: 119px;
+  overflow-x: scroll;
+
+}
+
+.content {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 8px 1px rgb(99, 97, 97);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.parts_des {
+  color: rgba(28, 15, 19, 0.45);
+}
+
+.types_container .items {
+  display: inline-block;
+  margin: 10px;
+  width: calc(50% - 23px);
+}
+
+.types_container .items img {
+  border-radius: 10px;
+}
+
+.items1{
+  position: absolute;
+  width: 160px;
+  height: 235px;
+  left: 0px;
+  top: 5px;
+}
+ 
+.items2{
+  position: absolute;
+  width: 160px;
+  height: 255px;
+  left: 175px;
+  top: 28px;
+
+}
+
+.items3{
+  position: absolute;
+  width: 160px;
+  height: 235px;
+  left: 0px;
+  top: 236px;
+}
+
+.items4{
+  position: absolute;
+  width: 160px;
+  height: 235px;
+  left: 175px;
+  top: 295px;
+}
+
+.items5{
+  position: absolute;
+  width: 160px;
+  height: 277px;
+  left: 0px;
+  top: 478px;
+}
+
+.items6{
+  position: absolute;
+  width: 160px;
+  height: 215px;
+  left: 175px;
+  top: 543px;
+
+}
+
+.items7{
+  position: absolute;
+  width: 160px;
+  height: 255px;
+  left: 0px;
+  top: 720px;
+
+}
+
+.items8{
+  position: absolute;
+  width: 160px;
+  height: 235px;
+  left: 175px;
+  top: 756px;
+
+}
+
+.items9{
+  position: absolute;
+  width: 160px;
+  height: 235px;
+  left: 0px;
+  top: 971px;
+
+}
+
+.items10{
+  position: absolute;
+  width: 160px;
+  height: 215px;
+  left: 175px;
+  top: 984px;
+
+}
+
+
+/* End of recipes page*/
