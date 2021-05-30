@@ -548,9 +548,9 @@ body {
   left: 38px;
   right: 38px;
   text-align: center;
-  top: 48px;
+  top: 0px;
   font-size: 25px;
-  line-height: 25px;
+  line-height: 50px;
   z-index: 1;
   background-color: #f5f3f1;
 }
